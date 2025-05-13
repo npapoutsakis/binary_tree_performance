@@ -38,17 +38,6 @@ The tests are configured with the following parameters:
 - Small range search: Current key to +100
 - Large range search: Current key to +1000
 
-## How to Run
-
-1. Compile the Java files
-2. Run the Main class
-
-```bash
-javac -d bin src/org/tuc/data/structures/MainConsole/Main.java
-java -cp bin org.tuc.data.structures.MainConsole.Main
-```
-
-The application will run tests for all three data structures and display the average number of comparisons for each operation.
 
 ## Features of Each Data Structure
 
@@ -74,11 +63,3 @@ You can optionally load keys from a file by uncommenting and setting the `fileNa
 ## Performance Analysis
 
 A detailed performance analysis report is included with the project, comparing the efficiency of each data structure across different operations and providing insights into their strengths and weaknesses.
-
-## License
-
-This project is open source and available for educational and research purposes.
-
-## Author
-
-Nick PC (original code author)
